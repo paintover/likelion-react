@@ -1,39 +1,4 @@
-body {
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-}
-
-ul {
-  display: flex;
-  flex-flow: column nowrap;
-  list-style: none;
-}
-
-li {
-  background-color: #121212;
-  display: inline-block;
-  width: 344px;
-  height: 88px;
-  padding: 12px;
-  box-sizing: border-box;
-}
-
-li figure {
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 20px;
-  align-items: center;
-  margin : 0;
-}
-
-img {
-  width: 64px;
-  height: 64px;
-}
-
-figcaption {
-  color: #FFF;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
+@import './_theme.css';
+@import './_base.css';
+@import './_demo.css';
+@import './_list.css';

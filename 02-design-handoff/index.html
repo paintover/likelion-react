@@ -1,51 +1,216 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>디자인 -> 개발 핸드오프</title>
-  <link rel="stylesheet" href="./src/styles/main.css" />
-  <script type="module" src="./src/main.js"></script>
-</head>
-<body>
-  <ul>
+<html lang="ko-KR">
 
-    <li>
-      <figure>
-        <img src="./src/images/architecture.png" alt="건축물의 외부를 사람 두명이 나란히 걷는 모습">
-        <figcaption>
-        History of Architecture  
-        </figcaption>
-      </figure>
-    </li>
+  <head>
+    <meta charset="UTF-8" />
+    <title>디자인 → 개발 핸드오프</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <meta
+      name="description"
+      content="Figma 디자인을 개발 코드로 핸드오프(Hand-off)합니다."
+    />
+    <link
+      rel="icon"
+      href="src/assets/favicon.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="src/styles/main.css"
+    />
+    <script
+      type="module"
+      src="src/main.js"
+    ></script>
+  </head>
 
-    <li>
-      <figure>
-        <img src="./src/images/building-design.png" alt="건축물의 내부의 모습">
-        <figcaption>
-          Building design
-        </figcaption>
-      </figure>
-    </li>
+  <body class="demo">
 
-    <li>
-      <figure>
-        <img src="./src/images/graphics.png" alt="건축물의 외부를 사람 두명이 나란히 걷는 모습">
-        <figcaption>
-        Graphics  
-        </figcaption>
-      </figure>
-    </li>
+    <sortable-list>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-01.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">Building design</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        >
+          <img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          />
+        </button>
+      </li>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-02.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">Graphics</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        >
+          <img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          />
+        </button>
+      </li>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-03.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">History of Architecture</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        ><img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          /></button>
+      </li>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-04.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">Climatology</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        >
+          <img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          />
+        </button>
+      </li>
+    </sortable-list>
 
-    <li>
-      <figure>
-        <img src="./src/images/climatology.png" alt="건축물 내부의 천장과 바닥이 모두 밝은 색상인 일부 구역의 모습">
-        <figcaption>
-          Climatology
-        </figcaption>
-      </figure>
-    </li>
+    <div
+      class="spacer"
+      style="inline-size: 60px; height: 60px"
+    ></div>
 
-  </ul>
-</body>
+    <sortable-list>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-01.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">Building design</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        >
+          <img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          />
+        </button>
+      </li>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-02.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">Graphics</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        >
+          <img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          />
+        </button>
+      </li>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-03.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">History of Architecture</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        ><img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          /></button>
+      </li>
+      <li>
+        <img
+          data-role="image"
+          src="src/assets/architectures/architecture-04.jpg"
+          alt=""
+          width="64"
+          height="64"
+        />
+        <span data-role="label">Climatology</span>
+        <button
+          type="button"
+          data-role="handle"
+          title="move item (using arrow up/down key)"
+        >
+          <img
+            src="src/assets/icons/hamburger.svg"
+            alt="move item (using arrow up/down key)"
+            width="20"
+            height="20"
+          />
+        </button>
+      </li>
+    </sortable-list>
+
+  </body>
+
 </html>
