@@ -20,8 +20,6 @@ class SortableList extends HTMLElement {
   #items = [];
 
   #init() {
-    console.log('초기화');
-
     // 구조 분해 할당
     const { DRAGGING_CLASSNAME } = SortableList;
 
