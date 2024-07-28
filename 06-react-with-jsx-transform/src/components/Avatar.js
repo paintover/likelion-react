@@ -1,12 +1,12 @@
 import { createElement as h } from 'https://esm.sh/react';
 
 /* 
-  <firgure aria-label="이름 (상태)">
+  <figure aria-label="이름 (상태)">
     <img src="face.jpg" alt="이름" />
     <figcaption>
       <img />
     </figcaption>
-  </firgure>
+  </figure>
 */
 
 /* 
