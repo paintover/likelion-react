@@ -1,4 +1,4 @@
-import { bool } from '@/utils/propTypes';
+import { bool } from '@/utils/PropTypes';
 
 function ConditionalDisplay({ isShowReactImage }) {
   return (

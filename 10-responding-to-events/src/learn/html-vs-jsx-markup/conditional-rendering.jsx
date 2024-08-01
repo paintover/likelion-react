@@ -57,5 +57,5 @@ function ConditionalRendering({ imageType }) {
 export default ConditionalRendering;
 
 ConditionalRendering.propTypes = {
-  imageType: PropTypes.arrayOf(['react', 'vite', 'next.js']),
+  imageType: PropTypes.oneOf(['react', 'vite', 'next.js']),
 };

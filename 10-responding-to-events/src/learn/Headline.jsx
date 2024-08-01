@@ -1,19 +1,3 @@
-import JSX_Markup from './jsx-markup';
-import ScrollUpAndDown from './scroll-up-and-down';
-
-function Learn() {
-  return (
-    <div className="Learn">
-      <Headline />
-      <hr />
-      <JSX_Markup />
-      <ScrollUpAndDown />
-    </div>
-  );
-}
-
-export default Learn;
-
 function Headline() {
   const abbrs = {
     html: 'Hyper Text Markup Language',
@@ -30,3 +14,5 @@ function Headline() {
     </h1>
   );
 }
+
+export default Headline;

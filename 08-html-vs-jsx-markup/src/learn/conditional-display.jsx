@@ -1,4 +1,3 @@
-
 import { typeOf } from '../utils';
 
 function ConditionalDisplay({ isShowImage }) {
