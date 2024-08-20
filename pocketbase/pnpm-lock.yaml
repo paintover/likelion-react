@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      pocketbase:
+        specifier: ^0.21.4
+        version: 0.21.4
+
+packages:
+
+  pocketbase@0.21.4:
+    resolution: {integrity: sha512-WJHyaqdAt95JgZ1OCRD099+DST4IIG0M/jMrCckWYDSN/6ocp61qsz7m6h0xI0J2N79ScBljceEC0fFAaQrrAw==}
+
+snapshots:
+
+  pocketbase@0.21.4: {}
